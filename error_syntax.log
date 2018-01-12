@@ -1,0 +1,4 @@
+user_data.xml:72:19:FATAL:PARSER:ERR_TAG_NAME_MISMATCH: Opening and ending tag mismatch: Pincode line 71 and Address
+user_data.xml:74:15:FATAL:PARSER:ERR_TAG_NAME_MISMATCH: Opening and ending tag mismatch: Address line 68 and Insurer
+user_data.xml:89:8:FATAL:PARSER:ERR_TAG_NAME_MISMATCH: Opening and ending tag mismatch: Insurer line 61 and Hcsc
+user_data.xml:89:8:FATAL:PARSER:ERR_TAG_NOT_FINISHED: Premature end of data in tag Hcsc line 2

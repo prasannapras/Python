@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<xs:schema xmlns:xs = "http://www.w3.org/2001/XMLSchema">
+<xs:element name="Hcsc">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="Insurer" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="Name">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="FirstName" type="xs:string">
+
+                                    </xs:element>
+                                    <xs:element name="LastName" type="xs:string">
+
+                                    </xs:element>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                        <xs:element name="Premium" type="xs:string">
+
+                        </xs:element>
+                        <xs:element name="Age" type="xs:int">
+
+                        </xs:element>
+                        <xs:element name="Address">
+                             <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="Town" type="xs:string">
+
+                                    </xs:element>
+                                    <xs:element name="Country" type="xs:string">
+
+                                    </xs:element>
+                                    <xs:element name="Pincode" type="xs:string">
+
+                                    </xs:element>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                        <xs:element name="PolicyNumber" type="xs:string">
+
+                        </xs:element>
+                    </xs:sequence>
+                    <xs:attribute name="Policyid" type="xs:int" use="required">
+
+                    </xs:attribute>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+</xs:schema>

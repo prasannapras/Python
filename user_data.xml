@@ -1,0 +1,89 @@
+<?xml version="1.0" ?>
+<Hcsc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="user_data.xsd">
+    <Insurer Policyid="123">
+        <Name>
+            <FirstName>Nandha</FirstName>
+            <LastName>Kumar</LastName>
+        </Name>
+        <Premium>5000</Premium>
+        <Age>22</Age>
+        <Address>
+            <Town>Udumalpet</Town>
+            <Country>India</Country>
+            <Pincode>626641</Pincode>
+        </Address>
+        <PolicyNumber>1234</PolicyNumber>
+
+    </Insurer>
+    <Insurer Policyid="124">
+        <Name>
+            <FirstName>Prasanna</FirstName>
+            <LastName>Prakasam</LastName>
+        </Name>
+        <Premium>8000</Premium>
+        <Age>20</Age>
+        <Address>
+            <Town>Udumalpet</Town>
+            <Country>India</Country>
+            <Pincode>626641</Pincode>
+        </Address>
+        <PolicyNumber>1231</PolicyNumber>
+    </Insurer>
+    <Insurer Policyid="125">
+         <Name>
+            <FirstName>Priya</FirstName>
+            <LastName>Dharshini</LastName>
+        </Name>
+        <Premium>21000</Premium>
+        <Age>26</Age>
+        <Address>
+            <Town>Udumalpet</Town>
+            <Country>India</Country>
+            <Pincode>626641</Pincode>
+        </Address>
+        <PolicyNumber>1232</PolicyNumber>
+    </Insurer>
+    <Insurer Policyid="126">
+        <Name>
+            <FirstName>guru</FirstName>
+            <LastName>lakshmi</LastName>
+        </Name>
+        <Premium>7000</Premium>
+        <Age>24</Age>
+        <Address>
+            <Town>Udumalpet</Town>
+            <Country>India</Country>
+            <Pincode>626641</Pincode>
+        </Address>
+        <PolicyNumber>1235</PolicyNumber>
+    </Insurer>
+    <Insurer Policyid="127">
+        <Name>
+            <FirstName>Moni</FirstName>
+            <LastName>sha</LastName>
+        </Name>
+        <Premium>5500</Premium>
+        <Age>27</Age>
+        <Address>
+            <Town>Udumalpet</Town>
+            <Country>India</Country>
+            <Pincode>626641</Pincode>
+        </Address>
+        <PolicyNumber>1236</PolicyNumber>
+    </Insurer>
+    <Insurer Policyid="128">
+         <Name>
+            <FirstName>Nandha</FirstName>
+            <LastName>Kumar</LastName>
+        </Name>
+        <Premium>7050</Premium>
+        <Age>28</Age>
+        <Address>
+            <Town>Udumalpet</Town>
+            <Country>India</Country>
+            <Pincode>626641</Pincode>
+        </Address>
+        <PolicyNumber>1237</PolicyNumber>
+    </Insurer>
+</Hcsc>
